@@ -8,7 +8,7 @@ const errorMiddleware = require("./middlewares/error-middleware");
 const cors = require("cors");
 
 const corsOptions = {
-    origin: "https://promanagefrontend-1v25gad2p-sravanthis-projects-bdbcceab.vercel.app",
+    origin: "https://promanagefrontend.vercel.app",
     methods: "GET,POST,PUT,DELETE,PATCH,HEAD",
     credentials: true,
 };
